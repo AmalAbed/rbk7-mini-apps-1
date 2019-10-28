@@ -1,2 +1,38 @@
-
-
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tic tac toe</title>
+	<script
+	  src="https://code.jquery.com/jquery-3.4.1.min.js"
+	  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	  crossorigin="anonymous"></script>
+	 <style>
+        body { background-color:white; }
+		table,tr,th,td {border: 1px solid black; padding: 15px; background: #459999;}
+        tr {width:50; height:50; }
+        #btn{margin: 50px;padding: 8px;}
+    </style>
+</head>
+	<body>
+		<h1> Hello To my Game, Lets Paly !</h1>
+		<table id="table">
+			  <tr>
+			    <td id="1" class="forground"><div></div></td>
+			    <td id="2" class="forground"><div></div></td>
+			    <td id="3" class="forground"><div></div></td>
+			  </tr>
+			  <tr>
+			    <td id="4" class="forground"><div></div></td>
+			    <td id="5" class="forground"><div></div></td>
+			    <td id="6" class="forground"><div></div></td>
+			  </tr>
+			  <tr>
+			    <td id="7" class="forground"><div></div></td>
+			    <td id="8" class="forground"><div></div></td>
+			    <td id="9" class="forground"><div></div></td>
+			  </tr>
+		</table>
+		<button id="btn" onclick="reset()"> reset </button>
+		<script type="text/javascript" src="app.js"></script>
+	</body>
+</html>
